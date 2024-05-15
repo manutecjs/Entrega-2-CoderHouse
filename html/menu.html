@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>El Tata</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <img src="../img/logo.png" alt="logo" class="logo" />
+      <nav>
+        <ul class="sidebar">
+          <li onclick=hideSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" style="cursor: pointer;"/></svg></li>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="/html/sucursales.html">Sucursales</a></li>
+          <li><a href="/html/delivery.html">Delivery</a></li>
+          <li><a href="/html/nosotros.html">Nosotros</a></li>
+          
+        </ul>
+        <ul>
+          <li class="hideOnMobile"><a href="../index.html">Inicio</a></li>
+          <li class="hideOnMobile"><a href="menu.html">Menu</a></li>
+          <li class="hideOnMobile"><a href="/html/sucursales.html">Sucursales</a></li>
+          <li class="hideOnMobile"><a href="/html/delivery.html">Delivery</a></li>
+          <li class="hideOnMobile"><a href="/html/nosotros.html">Nosotros</a></li>
+        </ul>
+      </nav>
+      <li class="menu-button" onclick=showSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" style="cursor: pointer;"/></svg></li>
+      <a class="carrito">
+        <img src="../img/carrito.png" alt="carrito" class="carrito-img" />
+      </a>
+
+      <!-- Responsive -->
+    </header>
+
+    <main class="main-menu">
+      <section class="section-menu">
+        <div class="letras">
+          <h1>Menu</h1>
+          <p>Aqui encontraras nuestro menu del día</p>
+        </div>
+      </section>
+
+      <section class="cards-section">
+        <div class="cards">
+          <img src="../img/muzza.jpg" alt="muzza" />
+          <div class="letras-cards-contenedor">
+            <div class="letras-cards">
+              <h3>Pizza de Muzza</h3>
+              <div class="precio">
+                <span>$</span>
+                <p>8,5000</p>
+              </div>
+            </div>
+            <div class="button-card">
+              <a href="https://wa.me/+5491150946567" target="_blank">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="cards">
+          <img src="../img/empanadas.jpg" alt="empanadas" />
+          <div class="letras-cards-contenedor">
+            <div class="letras-cards">
+              <h3>Empanadas</h3>
+              <div class="precio">
+                <span>$</span>
+                <p>1,000</p>
+              </div>
+            </div>
+            <div class="button-card">
+              <a href="https://wa.me/+5491150946567" target="_blank">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="cards">
+          <img src="../img/noquis.webp" alt="ñoquis" />
+          <div class="letras-cards-contenedor">
+            <div class="letras-cards">
+               <h3>Ñoquis</h3> <!--No entiendo por que hay un espacio en algunas cards y en otras no si son las mismas clases !!!!!!!!!!!! -->
+              <div class="precio">
+                <span>$</span>
+                <p>3,500</p>
+              </div>
+            </div>
+            <div class="button-card">
+              <a href="https://wa.me/+5491150946567" target="_blank">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="cards">
+          <img src="../img/pollo.webp" alt="pollo al horno" />
+          <div class="letras-cards-contenedor">
+            <div class="letras-cards">
+              <h3>Pollo al Horno</h3>
+              <div class="precio">
+                <span>$</span>
+                <p>4,000</p>
+              </div>
+            </div>
+            <div class="button-card">
+              <a href="https://wa.me/+5491150946567" target="_blank">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="cards">
+          <img src="../img/ravioles.jpg" alt="ravioles" />
+          <div class="letras-cards-contenedor">
+            <div class="letras-cards">
+              <h3>Ravioles</h3>
+              <div class="precio">
+                <span>$</span>
+                <p>4,000</p>
+              </div>
+            </div>
+            <div class="button-card">
+              <a href="https://wa.me/+5491150946567" target="_blank">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="cards">
+          <img src="../img/calzones.jpg" alt="calzones" />
+          <div class="letras-cards-contenedor">
+            <div class="letras-cards">
+              <h3>Calzones</h3>
+              <div class="precio">
+                <span>$</span>
+                <p>6,000</p>
+              </div>
+            </div>
+            <div class="button-card">
+              <a href="https://wa.me/+5491150946567" target="_blank">Pedir</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="/js/java.js"></script>
+
+    <footer>
+      <div class="footer">
+        <div class="row">
+          <a href="https://wa.me/+5491150946567" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          <a href="#Proximamente"><i class="fa fa-instagram"></i></a>
+          <a href="#Proximamente"><i class="fa fa-twitter"></i></a>
+        </div>
+
+        <div class="row">El Tata | Copyright © 2024</div>
+      </div>
+    </footer>
+
+    <script>
+      function showSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+      }
+      function hideSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+      }
+    </script>
+
+  </body>
+</html>
