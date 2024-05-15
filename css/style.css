@@ -125,9 +125,10 @@ header nav ul li a:hover {
   }
   .menu-button {
     display: block;
-    position: fixed;
+    position: absolute;
     right: 0;
     margin-right: 10px;
+    z-index: -1;
   }
 }
 @media (max-width: 400px) {
